@@ -1,2 +1,2 @@
 # TIC_TAC_TOE
-tIC TAC TOE GAME BY ME!
+tIC TAC TOE GAME BY Ashim Debnath!
