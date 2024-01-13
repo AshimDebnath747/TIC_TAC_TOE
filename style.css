@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.game{
+    height: 300px;
+    width: 300px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    font-size: 70px;
+    background-color: aqua;
+    color: black;
+}
+.reset{
+    height: 50px;
+    width : 100px;
+    font-size: 20px;
+    background-color: rgb(30, 30, 251);
+    color: #fff;
+}
