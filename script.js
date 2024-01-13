@@ -18,11 +18,13 @@ boxes.forEach((box)=>{
    box.addEventListener("click", ()=>{
        if(turnX){
         box.innerHTML = "X";
+        box.style.color = "red";
         turnX = false;
         state.innerHTML = "player 2's turn";
        }
        else if (turnX == false){
         box.innerHTML = "O";
+        box.style.color = "white";
         turnX = true;
         state.innerHTML = "player 1's turn";
        }
@@ -50,7 +52,7 @@ function winner(){
       }
     } 
 }
-reset.addEventListener("click", reset1())
+reset.addEventListener("click", reset1)
 function warning(){
     function func1(){
          warn.innerHTML = "The game will be restarted after 5 seconds" ;
@@ -65,5 +67,6 @@ function reset1(){
             turnX = true;
             state.innerHTML = "player 1's turn";
             box.disabled = false;
+            warn.innerHTML = "";
         })
     }
